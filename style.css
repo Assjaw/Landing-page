@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.header {
+    background-color: #1f2946;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.logo {
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+}
+.buttons {
+    display: flex;
+}
+.log {
+    background-color: transparent;
+    font-size: 20px;
+    border: 0;
+    color: white;
+    width: 100px;
+}
+.main {
+    background-color: #1f2946;
+    display: flex;
+    gap: 200px;
+    height: auto;
+    padding: 50px 200px;
+}
+.question {
+    color: white;
+    font-size: 48px;
+}
+.ans {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+.sign {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 10px;
+}
+.main-bomb {
+    border-radius: 30px;
+}
+.bomb {
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 500px 20px 500px;
+}
+.pics {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.powerful {
+    text-align: center;
+}
+.information {
+    margin: 5px 0px 25px 0px;
+}
+.description {
+    text-align: center;
+}
+.about {
+    width: 200px;
+}
+.death {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 40px;
+}
+.cit {
+    font-size: 36px;
+    font-style: italic;
+}
+.bob {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+}
+.ad {
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    max-width: 500px;
+}
+.sign-up {
+    padding: 10px;
+    color: white;
+    border: white solid 2px;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: 100px;
+}
+.join {
+    font-style: oblique;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+.footer {
+    background-color: #1f2946;
+    padding: 20px;
+}
+.kek {
+    color: rgb(230, 230, 230);
+    text-align: center;
+}
